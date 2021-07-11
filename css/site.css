@@ -1,0 +1,26 @@
+:root {
+    --primary-color: rgb(71, 128, 182);
+    --secodary-color: rgb(247, 172, 34);
+    --dark-color: rgb(65, 63, 63);
+    --white-color: rgb(225, 236, 229);
+}
+
+body {
+    color: var(--dark-color);
+}
+
+nav {
+    background-color: var(--dark-color);
+}
+
+footer {
+    background-color: var(--dark-color);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--primary-color);
+}
+
+main>.container {
+    padding: 60px 15px 0;
+}
