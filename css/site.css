@@ -17,7 +17,12 @@ footer {
     background-color: var(--dark-color);
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--primary-color);
 }
 
@@ -33,6 +38,22 @@ i {
 footer i:hover {
     opacity: 0.9;
     color: var(--secodary-color);
+}
+
+.bsicon {
+    color: #553c7b;
+}
+
+.jsicon {
+    color: #f0db4f;
+}
+
+.html5icon {
+    color: orangered;
+}
+
+.cssicon {
+    color: rgb(11, 82, 214);
 }
 
 main>.container {
