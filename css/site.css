@@ -21,6 +21,20 @@ h1,h2,h3,h4,h5,h6 {
     color: var(--primary-color);
 }
 
+.footer-text {
+    font-size: 0.8rem;
+}
+
+i {
+    color: var(--white-color);
+    opacity: 0.75;
+}
+
+footer i:hover {
+    opacity: 0.9;
+    color: var(--secodary-color);
+}
+
 main>.container {
     padding: 60px 15px 0;
 }

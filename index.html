@@ -11,14 +11,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5db21ba9c6.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/site.css">
+
 </head>
 
 <body class="d-flex flex-column h-100">
-
+    <!-- Nav Section -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">App Name</a>
+            <a href="index.html" class="navbar-brand"><img src="img/RRLogoWhite.svg" height="45" alt=""></a>
+            <a class="navbar-brand" href="index.html">App Name</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -45,7 +50,7 @@
             </div>
         </div>
     </nav>
-
+    <!-- Main Section -->
     <main class="flex-shrink-0">
         <div class="container">
             <h1 class="mt-5">Template with dark fixed navbar and sticky footer</h1>
@@ -53,9 +58,29 @@
                 CSS. A fixed navbar has been added with padding-top: 60px; on the main > .container.</p>
         </div>
     </main>
-    <footer class="footer mt-auto py-3 bg-dark">
-        <div class="container-fluid text-center">
-            <span class="text-muted">Place sticky footer content here.</span>
+    <!-- Footer Section -->
+    <footer class="footer mt-auto py-3">
+        <div class="container-fluid">
+            <div class="row row-cols-1 row-cols-lg-3 gy-2">
+                <div class="col order-last order-lg-first text-light d-flex align-items-center justify-content-start">
+                    <div class="footer-text">
+                        <span class="text-muted">&copy;2021</span> Razvan Roman | razvan.roman91@outlook.com
+                    </div>
+                </div>
+                <div class="col d-flex align-items-center justify-content-center">
+                    <img src="img/RazvanRomanWhiteLogo.svg" alt="Razvan Roman Logo" height="35">
+                </div>
+                <div class="col d-flex align-items-center justify-content-center justify-content-lg-end">
+                    <div class="row">
+                        <div class="col">
+                            <a href="#" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                        </div>
+                        <div class="col">
+                            <a href="#" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- Bootstrap JS -->
